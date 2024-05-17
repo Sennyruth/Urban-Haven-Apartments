@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 1rem;
 }
 @media screen and (max-width: 59.4em) {
     .header{
@@ -32,4 +33,41 @@ body{
     text-decoration: none;
     text-transform: capitalize;
     color: #222;
+}
+.titles{
+    height: 70vh;
+    background-image: url(./assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    height: 4vh;
+}
+.subtitle1,.subtitle2,.subtitle3{
+    color: rgb(255, 127, 138);
+}
+.subtitle1{
+    color: blanchedalmond;
+    font-size: 3rem;
+}
+.subtitle2{
+    text-transform: capitalize;
+font-size: 4rem;
+text-transform: uppercase;
+}
+.subtitle3{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2rem;
 }
