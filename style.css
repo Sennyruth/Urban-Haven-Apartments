@@ -1,14 +1,35 @@
 *{
     margin: 0;
     padding: 0;
-    border-radius: 0;
+    border-radius: border-box;
 }
-.subtitle1{
+body{
+    font-size: 1rem;
     font-family: sans-serif;
-    font-size: 20px;
-    font-style: italic;
+    color: #222;
 }
-.navigation bar{
-    justify-content: space-around;
+.header{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width: 59.4em) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.headerlog{
+    text-transform: capitalize;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+   gap: 3rem;
+}
+.navlink{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #222;
 }
