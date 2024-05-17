@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+.subtitle1{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.navigation bar{
+    justify-content: space-around;
+    display: flex;
+}
