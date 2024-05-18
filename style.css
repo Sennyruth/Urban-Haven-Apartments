@@ -1,73 +1,160 @@
-*{
-    margin: 0;
-    padding: 0;
-    border-radius: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
 }
-body{
-    font-size: 1rem;
-    font-family: sans-serif;
-    color: #222;
+body {
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: #222;
+  html,
+  .body {
+    overflow-x: hidden;
+  }
 }
-.header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
 }
 @media screen and (max-width: 59.4em) {
-    .header{
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
-.headerlog{
-    text-transform: capitalize;
-}
-.navlist{
-    list-style: none;
+  .header {
     display: flex;
-   gap: 3rem;
+    flex-direction: column;
+  }
 }
-.navlink{
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #222;
+.headerlog {
+  text-transform: capitalize;
 }
-.titles{
-    height: 70vh;
-    background-image: url(./assets/background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.navlist {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
 }
-.subtitles{
+.navlink {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #222;
+}
+.titles {
+  height: 70vh;
+  background-image: url(./assets/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subtitles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+  height: 4vh;
+}
+.subtitle1,
+.subtitle2,
+.subtitle3 {
+  color: rgb(255, 127, 138);
+}
+.subtitle1 {
+  color: blanchedalmond;
+  font-size: 3rem;
+}
+.subtitle2 {
+  text-transform: capitalize;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.subtitle3 {
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+}
+.abt-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border-radius: 10px;
+  display: flex;
+  gap: 2rem;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  padding: 3em;
+}
+.about-container img {
+  width: 80%;
+}
+.Abouttext h1 {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  text-align: center;
+}
+.maintitle {
+  color: blue;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.abt-haven {
+  border-radius: 20px;
+  width: 100px;
+  transform: scale(1.2s);
+}
+.abt-text {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+.reserve-cta {
+  display: block;
+  width: max-content;
+  color: blue;
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 auto;
+  background-color: black;
+}
+.amen {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.rooms-container img {
+  width: 30%;
+}
+.rooms-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+/* .rooms{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 3rem;
-    height: 4vh;
-}
-.subtitle1,.subtitle2,.subtitle3{
-    color: rgb(255, 127, 138);
-}
-.subtitle1{
-    color: blanchedalmond;
-    font-size: 3rem;
-}
-.subtitle2{
-    text-transform: capitalize;
-font-size: 4rem;
-text-transform: uppercase;
-}
-.subtitle3{
-    text-transform: capitalize;
-    font-family: sans-serif;
-    font-style: italic;
-    font-size: 2rem;
-}
+} */
