@@ -14,8 +14,9 @@
         <ol class="navlist">
           <li><a href="" class="navlink">Home</a></li>
           <li><a href="" class="navlink">About Us</a></li>
+          <li><a href="" class="navlink">Rooms</a></li>
           <li><a href="" class="navlink">Amenities</a></li>
-          <li><a href="" class="navlink">Special Offers</a></li>
+          <li><a href="" class="navlink">Contacts</a></li>
         </ol>
       </nav>
     </header>
@@ -31,7 +32,7 @@
       <h1 class="abouttext">About us</h1>
       <div class="about">
         <div class="about-container">
-          <img src="./assets/land.jpg" alt="" class="abt-haven" />
+          <img src="./assets/urbanhaven.jpg" alt="" class="abt-haven" />
         </div>
         <div class="about-container">
           <div class="abt-title">
@@ -43,7 +44,7 @@
             veniam explicabo obcaecati distinctio, amet facere labore deleniti
             quis qui quidem
           </p>
-          <a href="" class="reserve-cta"> Make reservation &rarr;</a>
+          <button type="button">Make reservation</button>
         </div>
       </div>
     </section>
@@ -137,39 +138,58 @@
           <h3>Water</h3>
           <img src="./assets/water.jpg" alt="" />
         </div>
+        <div class="offers">
+          <h3>Lighting</h3>
+          <img src="./assets/lighting.jpg" alt="" />
+        </div>
       </div>
     </section>
     <section class="contact">
       <h1>Contact Us</h1>
       <div class="contact-container">
-        <p>Reach us through all social media platforms</p>
-        <ul>
-          <li>Whatsapp</li>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
-        </ul>
-        <form action="" class="form-container">
-          <label for="fn">First Name </label>
-          <input type="text" id="fn" placeholder="Firstname" /><br />
-          <label for="ln">Last Name</label>
-          <input type="text" id="ln" placeholder="Lastname" /><br />
-          <label for="email">Email Address</label>
-          <input type="text" id="email" placeholder="Email address" /><br />
-          <label for="dt">Check in date</label>
-          <input type="date" id="dt" /><br />
-          <label for="dt">Check out date</label>
-          <input type="date" id="dt" /><br />
-          <label for="room">Room Type</label>
-          <select name="room" id="room">
-            <option value="One bedroom">One bedroom</option>
-            <option value="Two bedroom">Two bedroom</option>
-            <option value="Single">Single</option>
-            <option value="Bedsitter">Bedsitter</option>
-            <option value="Self-contained">Self-contained</option>
-            <option value="studio-apartments">studio-apartments</option>
-          </select>
-        </form>
+        <div class="contents">
+          <h3>Follow us on</h3>
+          <ul>
+            <li>Whatsapp</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+          </ul>
+        </div>
+        <div class="contents">
+          <h3>Our Contacts</h3>
+          <p>+254794357723</p>
+          <p>info@urbanhavenapartments</p>
+          <p>Murang'a,Kenya</p>
+        </div>
+
+        <div class="contents">
+          <h3>Make Reservation</h3>
+          <form action="" class="form-container">
+            <label for="fn">First Name </label><br />
+            <input type="text" id="fn" placeholder="Firstname" /><br />
+            <label for="ln">Last Name</label><br />
+            <input type="text" id="ln" placeholder="Lastname" /><br />
+            <label for="email">Email Address</label><br />
+            <input type="text" id="email" placeholder="Email address" /><br />
+            <label for="dt">Check in date</label><br />
+            <input type="date" id="dt" /><br />
+            <label for="dt">Check out date</label><br />
+            <input type="date" id="dt" /><br />
+            <label for="room">Room Type</label><br />
+            <select name="room" id="room">
+              <option value="One bedroom">One bedroom</option>
+              <option value="Two bedroom">Two bedroom</option>
+              <option value="Single">Single</option>
+              <option value="Bedsitter">Bedsitter</option>
+              <option value="Self-contained">Self-contained</option>
+              <option value="studio-apartments">
+                studio-apartments
+              </option></select
+            ><br />
+            <button type="button">Submit</button>
+          </form>
+        </div>
       </div>
     </section>
   </body>

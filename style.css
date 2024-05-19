@@ -6,7 +6,8 @@
 body {
   font-size: 1rem;
   font-family: sans-serif;
-  color: #222;
+  color: white;
+  background-color: #153448;
 }
 html,
 .body {
@@ -14,20 +15,21 @@ html,
 }
 h1 {
   font-size: 3em;
-  color: black;
+  color: white;
   font-weight: 500;
   text-align: center;
 }
 h3 {
   font-size: 2em;
-  color: blue;
+  color: white;
   font-weight: 500;
 }
 button {
   background-color: #e1f7f5;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
   font-size: 20px;
+  margin-top: 10px;
   color: #1e0342;
   border: 1px solid #0e46a3;
 }
@@ -58,7 +60,7 @@ button:hover {
 .navlink {
   text-decoration: none;
   text-transform: capitalize;
-  color: #222;
+  color: white;
 }
 .titles {
   height: 70vh;
@@ -118,7 +120,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 45%;
+  width: 50%;
   padding: 3em;
 }
 .about-container img {
@@ -126,7 +128,7 @@ button:hover {
 }
 
 .maintitle {
-  color: blue;
+  color: white;
   letter-spacing: 1px;
   font-style: italic;
 }
@@ -143,7 +145,7 @@ button:hover {
 .reserve-cta {
   display: block;
   width: max-content;
-  color: blue;
+  color: white;
   text-decoration: none;
   text-align: center;
   text-transform: capitalize;
@@ -151,7 +153,7 @@ button:hover {
   background-color: black;
 }
 .amen {
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: underline;
   text-transform: capitalize;
@@ -160,6 +162,10 @@ button:hover {
 }
 .rooms-container img {
   width: 30%;
+}
+img:hover{
+    transform: scale(1.2s);
+
 }
 .availablerooms-container {
   display: flex;
@@ -173,7 +179,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   width: 45%;
-  border: 2px solid blue;
+
+  border: 2px solid rgb(12, 159, 238);
   margin: 1em;
   border-radius: 10px;
   padding-bottom: 10px;
@@ -198,6 +205,9 @@ button:hover {
   justify-content: center;
   align-items: center;
   width: 45%;
+  margin: 1em;
+  border: 2px solid rgb(0, 123, 255);
+  border-radius: 10px;
 }
 .amenities-container img {
   width: 30%;
@@ -207,4 +217,32 @@ button:hover {
 }
 .form-container {
   padding: 10px;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.form-container {
+  margin: 10px;
+  color: white;
+  border: 2px solid rgb(17, 44, 195);
+  border-radius: 10px;
+}
+input {
+  padding: 10px;
+  border: 2px solid rgb(26, 216, 168);
+  border-radius: 10px;
+}
+#room {
+  padding: 10px;
+  border: 2px solid rgb(26, 194, 216);
+  border-radius: 10px;
 }
