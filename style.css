@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -28,12 +27,12 @@ h3 {
   color: white;
   font-weight: 500;
 }
-p{
-    padding-top: 10px;
+p {
+  padding-top: 10px;
 }
-ul{
-list-style: none ;
-padding: 20px;
+ul {
+  list-style: none;
+  padding: 20px;
 }
 button {
   background-color: #e1f7f5;
@@ -54,12 +53,7 @@ button:hover {
   align-items: center;
   padding: 1rem;
 }
-@media screen and (max-width: 59.4em) {
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 .headerlog {
   text-transform: capitalize;
 }
@@ -112,7 +106,6 @@ button:hover {
   font-family: "Dancing Script", cursive;
   font-size: 2rem;
   color: aqua;
-
 }
 .abt-title {
   display: flex;
@@ -120,9 +113,9 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
-.about-subtitle{
-    color: rgb(21, 196, 220);
-    font-size: 20px;
+.about-subtitle {
+  color: rgb(21, 196, 220);
+  font-size: 20px;
 }
 .about {
   border-radius: 10px;
@@ -179,9 +172,9 @@ button:hover {
 .rooms-container img {
   width: 30%;
 }
-img:hover{
-    transform: scale(95%);
-    transition: 0.5s ease;
+img:hover {
+  transform: scale(95%);
+  transition: 0.5s ease;
 }
 .availablerooms-container {
   display: flex;
@@ -241,13 +234,13 @@ img:hover{
   justify-content: center;
   align-items: center;
 }
-.contents{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    text-decoration: none;
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-decoration: none;
 }
 .form-container {
   margin: 10px;
@@ -265,25 +258,24 @@ input {
   border: 2px solid rgb(26, 194, 216);
   border-radius: 10px;
 }
-#txt{
-    padding: 10px;
-    border:2px solid rgb(26, 194, 216);
-    border-radius:10px ;
+#txt {
+  padding: 10px;
+  border: 2px solid rgb(26, 194, 216);
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
-    .about {
-        flex-direction: column;
-    }
-}
-@media(max-width:900px){
-    .contact-container{
+  .about {
     flex-direction: column;
+  }
 }
-
-}
-@media(max-width:900px){
-    .header{
+@media (max-width: 900px) {
+  .contact-container {
     flex-direction: column;
+  }
 }
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+  }
 }
