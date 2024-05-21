@@ -61,6 +61,11 @@ button:hover {
   list-style: none;
   display: flex;
   gap: 3rem;
+
+}
+.navlist:hover
+{
+  color: aqua;
 }
 .navlink {
   text-decoration: none;
